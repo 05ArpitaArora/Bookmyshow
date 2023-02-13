@@ -1,0 +1,144 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.fnav{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgb(47, 47, 77);
+  color: white;
+
+}
+
+
+.left {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.left img{
+width: 150px;
+margin: 5px;
+}
+
+
+.left input{
+width: 430px;
+height: 30px;
+padding: 5px;
+text-align: center;
+border: none;
+outline: none;
+border-radius: 3px;
+cursor: pointer;
+margin: 5px;
+margin-top: 10px;
+
+}
+
+.fnav.right{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.right span{
+  font-size: 20px;
+  margin: 15px;
+}
+
+.right button{
+  width: 50px;
+  height: 30px;
+  background-color: pink;
+  border: none;
+  border-radius: 2px;
+margin: 15px;
+}
+.right i{
+  font-size: 22px;
+  margin: 10px;
+}
+
+
+.sec-nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgb(24, 22, 28);
+  color: white;
+  padding: 6px;
+  height: 40px;
+}
+
+.s-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.s-left p{
+  margin: 15px;
+  font-size: 15px;
+}
+
+.s-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.s-right p{
+  margin: 15px;
+  font-size: 15px;
+}
+
+.main img{
+  width: 100%;
+  margin-top: 8px;
+}
+
+.container h2{
+  text-align: center;
+  padding: 22px;
+}
+
+.container.card{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card img{
+  width: 14%;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.banner img{
+  width: 100%;
+  border-radius: 15px;
+  height: 100px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(47, 47, 77);
+  border-radius: 8px;
+  height: 150px;
+}
+
+.footer img{
+  width: 250px;
+}
+.icon i{
+margin: 15px;
+font-size: 35px;
+
+}
