@@ -142,3 +142,91 @@ margin: 15px;
 font-size: 35px;
 
 }
+@media only screen and (min-width:360px) and (max-width:450px){
+  .fnav{
+    height: 30px;
+  }
+  .left img{
+    width:50px ;
+    margin: 5px;
+  }
+  
+    .left input{
+    width: 130px;
+    height: 10px;
+    padding: 2px;
+    border-radius: 1px;
+    margin: 5px;
+    margin-top: 7px;
+    padding: 1px;
+    
+    }
+
+    .right span{
+      font-size: 12px;
+      margin: 3px;
+    }
+    
+    .right button{
+      width: 30px;
+      height: 15px;
+      background-color: pink;
+      border: none;
+      border-radius: 1px;
+    margin: 3px;
+    }
+    .right i{
+      font-size: 12px;
+      margin: 3px;
+    }
+  
+  .sec-nav{
+    height: 15px;
+  }
+  
+  .s-left p{
+    margin: 5px;
+    font-size: 5px;
+  }
+  .s-right p{
+    margin: 5px;
+    font-size: 5px;
+  }
+
+  .main img{
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .container h2{
+    text-align: center;
+    padding: 5px;
+  }
+  .card img{
+    width: 13%;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  
+  .banner img{
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+  }
+  
+  .footer{
+    width: 100%;
+    background-color: rgb(47, 47, 77);
+    border-radius: 4px;
+    height: 60px;
+  }
+  
+  .footer img{
+    width: 50px;
+  }
+  .icon i{
+    margin: 5px;
+    font-size: 15px;
+  
+  }
+}
